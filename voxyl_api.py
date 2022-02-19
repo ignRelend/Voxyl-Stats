@@ -1,8 +1,8 @@
 import requests, json
 from datetime import datetime, timezone
-api_key = {'api': '4BeQuzXtJeEZIqNpbhlFnYbviI9sywBQ'}
+api_key = {'api': 'api_key'}
 
-guilds_params = {'api': '4BeQuzXtJeEZIqNpbhlFnYbviI9sywBQ', 'num': '5'}
+guilds_params = {'api': 'api_key', 'num': '5'}
 
 
 def name_to_uuid(name):
